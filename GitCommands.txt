@@ -10,3 +10,15 @@ Git push - push onto the site
 Git pull - pull from the site 
 
 Also, let's add some more from the next video, thanks
+
+Git branch <name> - creates a branch which is different from the master branch, containing
+	the original file with all the latest content. Used to make edits
+Git checkout <name> - Directs you to the new branch where you can make new changes or 
+	create new files
+Git merge <name> - this will merge one branch onto another, which includes the master
+	branch. After this, an add, commit, and push should follow
+echo /*My system test2*/> textFile.txt - this will create a new text file, essentially 
+	just creating a file with the extension specified
+cat textFile.txt- this is concatinating the file and presenting the content of that
+	file
+.\textFile.txt - opens the txt file, useful for editing in a branch file
