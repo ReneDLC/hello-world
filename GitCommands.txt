@@ -8,3 +8,5 @@ Git Commit - locks the files into
 	the repository
 Git push - push onto the site
 Git pull - pull from the site 
+
+Also, let's add some more from the next video, thanks
