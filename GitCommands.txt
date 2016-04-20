@@ -1,0 +1,10 @@
+Git clone - create a clone of the 
+	repository
+Git status - chech content/search 
+	for changes
+Git add - add the changes that were
+	committed
+Git Commit - locks the files into 
+	the repository
+Git push - push onto the site
+Git pull - pull from the site 
