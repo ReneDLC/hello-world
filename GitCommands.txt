@@ -22,3 +22,59 @@ echo /*My system test2*/> textFile.txt - this will create a new text file, essen
 cat textFile.txt- this is concatinating the file and presenting the content of that
 	file
 .\textFile.txt - opens the txt file, useful for editing in a branch file
+
+	Offline Git Commands
+
+git config --global user.name "name_here"	
+	This will allow you to track who has changed files inside your database
+git config --global user.email "emailme.gmail"
+	Also allows you to follow who is changing files in your database
+git config --global core.editor "vim"
+	Choose the editor 
+git config --list 
+	Shows you the information that you currently have updated
+git help "command"
+	Help on specific commands
+clear 
+	Clears the screen of all your commands
+git init
+	Save certain files inside that directory
+git add *.java  OR "file_name.ext"
+	Tracking specific files
+*create a .ignore*
+	Ignore certaing files, it is a file that will igonre all of the certain directory
+	or extensions "github.com//ignore"
+git commmit "-m"
+	Commit a file, write directly to it without opening up an editor? Add in 	quotations statement
+git status
+	See all the untracked files, except for the ignored files
+git diff
+	Shows you what specifically is different about the file
+git add "filename.txt"
+	Staging a file is when you add it to the commit line
+git rm "filename.txt"
+	Regular removal of file
+git rm -f "filename.txt"
+	Forced removal of file
+Staging Area
+	Once a file is added to the commit line, it is in the staging area
+git rm --chached "filename.txt"
+	Keep the file in the system, but remove it from the staging area
+	Wont be in status
+git mv "newname.txt" "filename.txt"
+	Changes the name of the text file in the second string
+git log
+	Changes in reverse order, get out with q
+git log --pretty=oneline
+
+git log --pretty=format:"%h: %an : %ar : %s
+	h - hash code
+	an - person who made change
+	ar - date of change
+	s - first line of comment
+
+git commit --ammend 
+	Change to insert, to change the line. 
+
+git reset HEAD "filename.txt"
+	un-stage a file after you added it 
