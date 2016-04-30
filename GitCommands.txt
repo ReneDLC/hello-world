@@ -61,7 +61,7 @@ Staging Area
 git rm --chached "filename.txt"
 	Keep the file in the system, but remove it from the staging area
 	Wont be in status
-git mv "newname.txt" "filename.txt"
+git mv "newname.txt" "filename.txt"git 
 	Changes the name of the text file in the second string
 git log
 	Changes in reverse order, get out with q
